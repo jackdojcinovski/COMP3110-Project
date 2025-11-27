@@ -1,0 +1,21 @@
+Line 1: Welcome to the test file.
+Line 2: This file contains several unique lines.
+Line 3: Some lines will be similar across files.
+Line 4: The quick brown fox jumps over the lazy dog.
+Line 5: Matching algorithms should detect duplicates.
+Line 6: Repeated phrasing appears in file2 as well.
+Line 7: This is a sample line for matching.
+Line 8: Another example line for algorithms.
+Line 9: Alpha Beta Gamma Delta.
+Line 10: Random number: 48392
+Line 11: Random phrase: blue ocean horizon
+Line 12: Checksum=948203948
+Line 13: Note: lines 4 and 7 appear in modified form elsewhere.
+Line 14: User input placeholder text.
+Line 15: Assignment test data for Jack.
+Line 16: Lorem ipsum dolor sit amet.
+Line 17: Slight variation exists in file3.
+Line 18: END OF SECTION A
+Line 19: Duplicate candidate line.
+Line 20: Duplicate candidate line.
+Line 21: File1 concludes here.
