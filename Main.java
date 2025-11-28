@@ -1,16 +1,14 @@
-import java.nio.file.*;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
-        if (args.length < 3) {
-            System.out.println("Usage: java Main <oldFile> <newFile> <outputXml>");
-            return;
-        }
 
-        Path oldFile = Paths.get(args[0]);
-        Path newFile = Paths.get(args[1]);
-        Path outputXml = Paths.get(args[2]);
+        // Automatically use these fixed file names
+        Path oldFile = Paths.get("old.txt");
+        Path newFile = Paths.get("new.txt");
+        Path outputXml = Paths.get("output.xml");
 
         try {
             // Map lines
