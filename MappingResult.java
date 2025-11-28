@@ -1,15 +1,20 @@
-public class mapping {
-    /*load old file
-load new file
+import java.util.*;
 
-compare line by line
-detect matches
-detect insertions
-detect deletions
+public class MappingResult {
+    private final Map<Integer, Integer> mapping = new LinkedHashMap<>();
 
-produce mapping structure:
-{ old_line_num : new_line_num or -1 }
- */
+    public MappingResult(int oldLineCount) {
+        for (int i = 1; i <= oldLineCount; i++) {
+            mapping.put(i, -1);
+        }
+    }
 
+    public void addMatch(int oldLine, int newLine) {
+        mapping.put(oldLine, newLine);
+    }
 
+    public Map<Integer, Integer> getMapping() {
+        return mapping;
+    }
 }
+
