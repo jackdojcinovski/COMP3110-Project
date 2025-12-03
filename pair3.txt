@@ -1,0 +1,4 @@
+id,name,score
+1,Jack,90
+2,Sarah,85
+3,Mike,88

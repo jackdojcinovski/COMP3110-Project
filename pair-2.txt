@@ -1,0 +1,4 @@
+
+Line mapping should detect changes.
+It is used for testing.
+This is a sample sentence!
