@@ -1,0 +1,7 @@
+INFO: Start processing
+
+DEBUG: Got 3 items
+
+DEBUG: Filtered 1 item
+
+INFO: Done (ok)

@@ -1,0 +1,11 @@
+
+BEGIN
+alpha
+beta
+END
+
+BEGIN
+gamma
+delta
+END
+
