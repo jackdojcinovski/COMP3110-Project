@@ -5,21 +5,14 @@ import java.nio.file.Paths;
 public class Main {
     public static void main(String[] args) {
 
-<<<<<<< Updated upstream
-        // Automatically use these fixed file names
-=======
 
->>>>>>> Stashed changes
         Path oldFile = Paths.get("old.txt");
         Path newFile = Paths.get("new.txt");
         Path outputXml = Paths.get("output.xml");
 
         try {
-<<<<<<< Updated upstream
-            // Map lines
-=======
-            //Build mapping 
->>>>>>> Stashed changes
+
+
             MappingResult result = LineMapper.mapFiles(oldFile, newFile);
 
             // Write XML
