@@ -26,7 +26,8 @@ public class LCSMapper {
         }
 
         // Backtrack matches
-        List<int[]> matches = new ArrayList<>();
+        List<int[]> matches = new ArrayList<>();// Create an empty list to store all matching pairs
+
         int i = m, j = n;
 
         while (i > 0 && j > 0) {
