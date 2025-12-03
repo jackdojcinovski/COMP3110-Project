@@ -1,5 +1,16 @@
 id,name,scor
+
 1,Jack,9
+
 3,Mike,88
+
 2,Sarah,87
+
+4,Caleb,22
+
+5,Micheal,37
+
+6,Trevor,93
+
+7,Franklin,42
 

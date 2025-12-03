@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Path oldFile = Paths.get("pair13.txt");
-        Path newFile = Paths.get("pair-13.txt");
+        Path oldFile = Paths.get("pair20.txt");
+        Path newFile = Paths.get("pair-20.txt");
         Path outputXml = Paths.get("output.xml");
 
         try {
