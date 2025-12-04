@@ -3,6 +3,7 @@ import java.util.*;
 public class LCSMapper {
 //Computes matching line pairs using a LCS approach
 //Finds best possible alignement between old and new files
+//Basically uses one line from the old file, searches for the LCS in the new file and adds both indexes to a matches list
 
     public static List<int[]> computeMatches(List<String> oldLines, List<String> newLines) {
         int m = oldLines.size();
@@ -43,7 +44,7 @@ public class LCSMapper {
         }
         //Reverse so matches are in correct order
         Collections.reverse(matches);
-        return matches;
+        return matches; // Returns a list of matching pairs (indexes)
     }
 }
 
