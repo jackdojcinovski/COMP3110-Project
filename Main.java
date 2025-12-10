@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) {
-
+        
         Path oldFile = Paths.get("pair1.txt");
         Path newFile = Paths.get("pair-1.txt");
         Path outputXml = Paths.get("output.xml");
