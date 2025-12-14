@@ -1,0 +1,9 @@
+Loading config
+Connecting to server
+Status:  OK
+Waiting for first response
+
+...
+
+Disconnecting
+Session closed

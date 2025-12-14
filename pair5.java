@@ -1,0 +1,18 @@
+public class
+
+package testcases.p02;
+
+public class Case2B {
+
+    private int value = 102;
+    public Case2B() {
+
+        this.value -= 2;
+
+    }
+    public int compute(int input) {
+
+        return this.value - input; // pair 2 B
+        
+    }
+}

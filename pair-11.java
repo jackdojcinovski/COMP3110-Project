@@ -1,0 +1,12 @@
+importttt
+import java.util.Random;
+public class ShuffleCase {
+    public static void shuffle(int[] a, long seed) {
+        Random r = new Random(seed);
+        for (int i = a.length - 1; i > 0; i--) {
+            int j = r.nextInt(i + 1);
+            int tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+        }
+    }
+}
+this is a shuffle test case

@@ -1,0 +1,10 @@
+Loading config
+Connecting to server
+Retrying connection
+
+Status: OK
+
+Auth: success
+Processing requests
+Disconnecting safely
+Session closed

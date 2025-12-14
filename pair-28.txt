@@ -1,0 +1,13 @@
+[BOOT] Starting system
+[BOOT] Loading configuration
+[BOOT] Configuration loaded
+[NET] Connecting to server
+[NET] Connection established
+[AUTH] Sending credentials
+[AUTH] Auth success
+[JOB] Starting job A
+[JOB] Job A complete
+[JOB] Starting job B
+[JOB] Job B failed
+[SHUTDOWN] Closing connections
+[SHUTDOWN] System halted
