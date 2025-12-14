@@ -1,7 +1,7 @@
 package testcases.p01;
-public class Case1A {
+public class pair-5 {
     private int value = 1;
-    public Case1A() {
+    public pair-5() {
         this.value += 10;
     }
     public int compute(int input) {

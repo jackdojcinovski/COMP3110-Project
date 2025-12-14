@@ -1,0 +1,13 @@
+id,name,age,city
+3,Cal,19,London
+1,Ana,21,Toronto
+2,Ben,22,Windsor
+5,Ari,23,Hamilton
+4,Dax,19,Ottawa
+6,Eve,24,Waterloo
+10,Mia,19,Sarnia
+11,Zoe,20,London
+8,Leo,21,Guelph
+7,Tom,20,Kingston
+9,Ian,22,Chatham
+12,Ray,25,Toronto
